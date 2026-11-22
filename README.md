@@ -67,7 +67,7 @@ Scales, formulas and rules for each one are in **[docs/frameworks.md](docs/frame
 ## Install
 
 ### Claude.ai (web, desktop, mobile)
-1. Download this repo as ZIP, or zip only the `skills/strategic-analysis` folder.
+1. Download **[strategic-analysis.zip](strategic-analysis.zip)** from this repo.
 2. Go to **Settings → Capabilities → Skills → Upload skill** and select the zip.
 3. Enable it, then ask for an analysis (see prompts below).
 
