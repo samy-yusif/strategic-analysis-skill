@@ -33,8 +33,18 @@ This skill makes Claude run that whole pipeline:
 | Deliverable | Contents |
 |---|---|
 | **Excel model** | ~30 linked sheets with live formulas. Change one weight and every downstream score updates. A Solution column on every framework. |
-| **Word report** | Full explanation of each framework: purpose, method, results, interpretation, solutions, sources. Includes a table of contents, captions and references. |
+| **Word report** | Full explanation of each framework: purpose, method, results, interpretation, solutions and sources, with a table of contents, captions and references |
 | **Summary deck** | About 20 slides, each titled with its main message: position, decision, plan, top 10 success levers, risks. |
+
+## See a full example
+
+**[Masar Coffee: a new specialty coffee chain in Riyadh, built from scratch →](examples/masar-coffee-riyadh/)**
+It includes an Excel model (31 sheets, about 1,280 formulas), a 30-page Word report and a 21-slide deck, all generated from a single prompt.
+
+| | |
+|---|---|
+| ![Executive summary](examples/masar-coffee-riyadh/preview/slide-02.jpg) | ![QSPM](examples/masar-coffee-riyadh/preview/slide-12.jpg) |
+| ![Strategic position](examples/masar-coffee-riyadh/preview/slide-11.jpg) | ![Downside test](examples/masar-coffee-riyadh/preview/slide-17.jpg) |
 
 ## The pipeline
 
@@ -120,7 +130,8 @@ The skill checks its own work before it delivers anything:
 
 ## Roadmap
 
-- [ ] Example outputs (Excel, Word, deck) for a public company
+- [x] Full example output: [Masar Coffee, Riyadh](examples/masar-coffee-riyadh/) (new venture)
+- [ ] Example for an existing listed company (Mode E)
 - [ ] Industry packs (real estate, F&B, SaaS, healthcare) with preset key success factors
 - [ ] Arabic output option
 - [ ] Blue Ocean / Ansoff / Business Model Canvas add-ons

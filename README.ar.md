@@ -29,6 +29,12 @@
 
 المخرجات حاليًا بالإنجليزية، وخيار الإخراج بالعربية موجود في خطة التطوير.
 
+## مثال كامل
+
+[مقهى "مسار": سلسلة قهوة مختصة جديدة في الرياض، متحللة من الصفر](examples/masar-coffee-riyadh/). المثال فيه ملف Excel وتقرير Word وعرض تقديمي، والتلاتة طالعين من أمر واحد.
+
+![مثال](examples/masar-coffee-riyadh/preview/slide-02.jpg)
+
 ## التثبيت
 
 **Claude.ai**: اضغط مجلد `skills/strategic-analysis` كملف zip، وبعدين ادخل على Settings ← Capabilities ← Skills ← Upload skill.
